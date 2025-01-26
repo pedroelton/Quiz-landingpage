@@ -10,7 +10,7 @@ Irmão, aqui você vai alterar as perguntas e as respostas...
         { text: "Resposta 3" },
         { text: "Resposta 4" },
       ],
-      img: "../../public/images/endereço_da_imagem.webp",
+      img: "../../images/endereço_da_imagem.webp",
     },
 
  E ai pode alterar os dados das que vc quiser continuar
@@ -28,7 +28,7 @@ const content = {
         { text: "40-49" },
         { text: "+50" },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como você se sente ao escolher roupas em uma loja?",
@@ -38,7 +38,7 @@ const content = {
         { text: "Evito comprar roupas por vergonha de experimentar." },
         { text: "Prefiro não ir a lojas para evitar frustrações." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Quanto tempo você já tentou emagrecer sem sucesso?",
@@ -48,7 +48,7 @@ const content = {
         { text: "Nunca tentei seriamente, mas sempre penso nisso." },
         { text: "Nunca tentei porque não sei por onde começar." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Qual o impacto do seu peso na sua saúde?",
@@ -58,7 +58,7 @@ const content = {
         { text: "Já tenho problemas como diabetes ou hipertensão." },
         { text: "Estou constantemente no limite da exaustão." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como é sua relação com a alimentação?",
@@ -68,7 +68,7 @@ const content = {
         { text: "Dependo de comida para lidar com o estresse." },
         { text: "Como sem perceber, principalmente em momentos de ansiedade." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você já deixou de fazer algo por vergonha do seu corpo?",
@@ -78,7 +78,7 @@ const content = {
         { text: "Frequentemente." },
         { text: "Sim, muitas oportunidades foram perdidas por isso." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Qual é sua maior dificuldade em emagrecer?",
@@ -88,7 +88,7 @@ const content = {
         { text: "Focar nos resultados e evitar recaídas." },
         { text: "Ter força de vontade para começar." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você acredita que seu peso afeta sua autoestima?",
@@ -98,7 +98,7 @@ const content = {
         { text: "Me sinto péssimo(a) na maior parte do tempo." },
         { text: "Evito pensar nisso, mas sei que afeta minha vida." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você já tentou dietas ou treinos antes?",
@@ -108,7 +108,7 @@ const content = {
         { text: "Já tentei muitas vezes, mas sem sucesso." },
         { text: "Comecei várias vezes, mas desisti rapidamente." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como seria sua vida se você perdesse o peso que deseja?",
@@ -118,7 +118,7 @@ const content = {
         { text: "Totalmente transformada, com mais energia e confiança." },
         { text: "Finalmente viveria sem limitações ou vergonha." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como você define seu nível de energia diário?",
@@ -128,7 +128,7 @@ const content = {
         { text: "Quase sempre cansado(a)." },
         { text: "Não consigo me sentir disposto(a) para nada." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Quando você pensa no futuro, como imagina sua saúde?",
@@ -138,7 +138,7 @@ const content = {
         { text: "Em risco, tenho medo do que pode acontecer." },
         { text: "Comprometida, se continuar nesse ritmo." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você sente que tem apoio para emagrecer?",
@@ -148,7 +148,7 @@ const content = {
         { text: "Não, me sinto sozinho(a) nessa jornada." },
         { text: "Tenho apoio emocional, mas não prático." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como você avalia sua alimentação no dia a dia?",
@@ -158,7 +158,7 @@ const content = {
         { text: "Descontrolada, principalmente em momentos de estresse." },
         { text: "Quase sempre baseada em fast food ou comidas prontas." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você acredita que é possível emagrecer sem sofrer?",
@@ -168,7 +168,7 @@ const content = {
         { text: "Sim, se eu encontrar o método certo." },
         { text: "Acho que é possível, mas nunca tentei algo eficiente." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "O que mais te impede de começar uma mudança?",
@@ -178,7 +178,7 @@ const content = {
         { text: "Não sei por onde começar." },
         { text: "Medo de fracassar novamente." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como você lida com seu corpo nas redes sociais?",
@@ -190,7 +190,7 @@ const content = {
           text: "Apenas compartilho fotos antigas, quando eu era mais magro(a).",
         },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Qual é o seu maior medo relacionado ao seu peso?",
@@ -200,7 +200,7 @@ const content = {
         { text: "Sofrer preconceito ou rejeição." },
         { text: "Não poder acompanhar a vida ativa dos meus filhos ou netos." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você se sente produtivo(a) no dia a dia?",
@@ -210,7 +210,7 @@ const content = {
         { text: "Estou sempre sem energia." },
         { text: "Me sinto preso(a) em uma rotina sem disposição para mudar." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Como você enxerga a relação entre peso e felicidade?",
@@ -220,7 +220,7 @@ const content = {
         { text: "Minha felicidade está diretamente ligada ao meu corpo." },
         { text: "Perder peso seria o primeiro passo para uma vida plena." },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
       title: "Você está disposto(a) a dar o próximo passo?",
@@ -232,7 +232,7 @@ const content = {
           text: "Sim, mas só se o plano for fácil e prático para minha rotina.",
         },
       ],
-      img: "../../public/images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
   ],
 };
