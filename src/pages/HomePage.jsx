@@ -9,8 +9,8 @@ export default function HomePage() {
     homePageData;
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen text-green-800 w-screen">
-      <div className="flex flex-col lg:w-[60vw] md:w-[80vw] w-screen h-screen items-center justify-between py-16">
+    <div className="flex flex-col items-center justify-center h-screen text-green-800 w-screen py-16">
+      <div className="flex flex-col lg:w-[60vw] md:w-[80vw] w-screen h-screen items-center justify-between">
         {/* Logo Image */}
         <img src={logo} alt="Logo" className="mb-4 w-48" />
 
@@ -27,7 +27,7 @@ export default function HomePage() {
         />
 
         {/* Description Text */}
-        <p className="text-2xl mb-4 font-semibold text-gray-500 text-center md:p-4 p-2">
+        <p className="md:text-2xl text-xl mb-4 font-semibold text-gray-500 text-center md:p-4 p-2">
           {description}
         </p>
 
