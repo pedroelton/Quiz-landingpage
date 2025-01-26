@@ -101,16 +101,6 @@ const content = {
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
-      title: "Você já tentou dietas ou treinos antes?",
-      options: [
-        { text: "Sim, mas não consegui manter." },
-        { text: "Não tentei, mas quero começar." },
-        { text: "Já tentei muitas vezes, mas sem sucesso." },
-        { text: "Comecei várias vezes, mas desisti rapidamente." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
       title: "Como seria sua vida se você perdesse o peso que deseja?",
       options: [
         { text: "Melhor, mas não sei se faria tanta diferença." },
@@ -121,32 +111,12 @@ const content = {
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
-      title: "Como você define seu nível de energia diário?",
-      options: [
-        { text: "Sempre alto." },
-        { text: "Oscila bastante." },
-        { text: "Quase sempre cansado(a)." },
-        { text: "Não consigo me sentir disposto(a) para nada." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
       title: "Quando você pensa no futuro, como imagina sua saúde?",
       options: [
         { text: "Saudável, mesmo sem grandes mudanças." },
         { text: "Preocupante, se não mudar agora." },
         { text: "Em risco, tenho medo do que pode acontecer." },
         { text: "Comprometida, se continuar nesse ritmo." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
-      title: "Você sente que tem apoio para emagrecer?",
-      options: [
-        { text: "Sim, da minha família e amigos." },
-        { text: "Pouco, preciso de mais orientações claras." },
-        { text: "Não, me sinto sozinho(a) nessa jornada." },
-        { text: "Tenho apoio emocional, mas não prático." },
       ],
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
@@ -203,34 +173,12 @@ const content = {
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
-      title: "Você se sente produtivo(a) no dia a dia?",
+      title: "Quantos Kg você precisa perder?",
       options: [
-        { text: "Sim, mas poderia ser melhor." },
-        { text: "Não, o cansaço me atrapalha." },
-        { text: "Estou sempre sem energia." },
-        { text: "Me sinto preso(a) em uma rotina sem disposição para mudar." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
-      title: "Como você enxerga a relação entre peso e felicidade?",
-      options: [
-        { text: "Não acho que seja diretamente relacionado." },
-        { text: "Acho que o peso afeta bastante a autoestima." },
-        { text: "Minha felicidade está diretamente ligada ao meu corpo." },
-        { text: "Perder peso seria o primeiro passo para uma vida plena." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
-      title: "Você está disposto(a) a dar o próximo passo?",
-      options: [
-        { text: "Sim, quero mudar agora." },
-        { text: "Talvez, preciso de mais orientações." },
-        { text: "Não tenho certeza se consigo." },
-        {
-          text: "Sim, mas só se o plano for fácil e prático para minha rotina.",
-        },
+        { text: "2kg-10kg" },
+        { text: "11kg-20kg" },
+        { text: "21kg-30kg" },
+        { text: "+30kg" },
       ],
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
