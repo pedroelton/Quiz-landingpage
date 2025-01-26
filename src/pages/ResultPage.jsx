@@ -8,14 +8,14 @@ import Button from "../components/Button";
 
 export default function ResultPage() {
   return (
-    <div className="flex flex-col items-center justify-center text-green-800 w-screen">
+    <div className="flex flex-col items-center justify-center text-green-800 w-screen pb-4">
       <div className="flex flex-col lg:w-[60vw] md:p-8 w-[95vw] h-screen items-center justify-between">
+        <h2 className="text-4xl font-bold mt-3 text-pink-500">Resultado</h2>
         <p className="text-xl font-semibold mb-4 mt-4 text-center lg:w-[50%] md:w-[70%]">
           Sua jornada está prestes a COMEÇAR! 💪 Revelamos os segredos que vão
           te levar à sua melhor versão. Acesse nossa surpresa,{" "}
           <b>NÃO DESISTA</b> e vamos juntos!
         </p>
-        <h2 className="text-4xl font-bold mb-6 text-pink-500">Resultado</h2>
         <p className="md:text-2xl text-xl font-semibold mb-4 text-pink-500">
           <ul className="flex flex-col gap-2">
             <li className="flex gap-2">
@@ -73,14 +73,11 @@ export default function ResultPage() {
           Imagine como você se sentirá com o corpo dos seus sonhos! 😍 Não deixe
           essa chance passar. Clique agora e descubra seu próximo passo!
         </p>
-        <Button
-          text="Começar AGORA e Descubra a Solução!"
-          link="https://worldwise.study"
-        />
+        <Button text="Quero Saber Mais" link="/text-image" />
         <p className="text-xl mt-4 text-center lg:w-[50%] md:w-[70%]">
           Pare de adiar! 🚫 Sua transformação é totalmente possível.
         </p>
-        <p className="text-xl text-center lg:w-[50%] md:w-[70%]">
+        <p className="text-xl text-center lg:w-[50%] md:w-[70%] mb-4">
           Te entregaremos o plano exato que você precisa para decolar!
         </p>
       </div>

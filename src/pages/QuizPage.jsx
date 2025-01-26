@@ -15,15 +15,15 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center text-green-800 w-screen">
-      <div className="flex flex-col lg:w-[60vw] md:p-8 w-[95vw] h-screen items-center justify-between">
+    <div className="flex flex-col items-center justify-center text-green-800 w-screen pb-16">
+      <div className="flex flex-col lg:w-[60vw] md:p-8 w-[95vw] h-screen items-center justify-around">
         <img src="/public/1.webp" alt="Logo" className="p-4 w-48" />
         <img
           src={pageData.img}
           alt="Imagens sobre emagrecimento"
-          className="md:mb-6 mb-4 rounded-xl md:w-[50vw] lg:w-[30vw]"
+          className="md:mb-6 mb-2 rounded-xl md:w-[50vw] lg:w-[30vw]"
         />
-        <h2 className="text-4xl w-full font-bold md:mb-6 mb-4 text-center">
+        <h2 className="md:text-4xl text-2xl w-full font-bold md:mb-4 mb-2 text-center">
           {pageData.title}
         </h2>
 
