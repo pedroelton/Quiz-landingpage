@@ -19,37 +19,37 @@ export default function TextImagePage() {
         <p className="md:text-2xl text-xl font-semibold my-8 text-pink-500">
           <ul className="flex flex-col gap-2">
             <li className="flex gap-2">
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Guia Completo: Método comprovado e passo a passo para emagrecer de
               forma definitiva.
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Dieta Personalizada: Cardápio elaborado por profissionais para
               cada dia da semana, com foco na sua individualidade.
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Calendário de exercicios: Saiba quais exercicios fazer para cada
               dia da semana.
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Calendário de Dieta: Quais dias comer cada item do cardápio. Uma
               dieta SEM PASSAR FOME.
             </li>
             <li className="flex gap-2 text-green-700">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               [Bônus 1] Lista de Exercícios em Casa: Treine no seu tempo e no
               conforto do seu lar, sem precisar de equipamentos ou academia.
             </li>
             <li className="flex gap-2 text-green-700">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               [Bônus 2] Planilha de Acompanhamento: Monitore sua evolução e
               resultados em tempo real, de forma clara e organizada.
             </li>

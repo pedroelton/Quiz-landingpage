@@ -19,52 +19,52 @@ export default function ResultPage() {
         <p className="md:text-2xl text-xl font-semibold mb-4 text-pink-500">
           <ul className="flex flex-col gap-2">
             <li className="flex gap-2">
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Dieta Sem Fome
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Exercícios Simples
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Sem Academia
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Cardápio Completo da Semana
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Calendário de Refeições
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Exercícios em Vídeo
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Calendário de Exercícios
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/check.webp" className="w-6 h-6" />
+              <img src="/images/check.webp" className="w-6 h-6" />
               Planilha para Acompanhamento
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/x.webp" className="w-6 h-6" />
+              <img src="/images/x.webp" className="w-6 h-6" />
               Dieta Restritiva
             </li>
             <li className="flex gap-2">
               {" "}
-              <img src="../../public/images/x.webp" className="w-6 h-6" />
+              <img src="/images/x.webp" className="w-6 h-6" />
               Academia e Dor no Corpo
             </li>
           </ul>
