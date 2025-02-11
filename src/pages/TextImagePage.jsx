@@ -17,7 +17,7 @@ export default function TextImagePage() {
         </h2>
 
         <p className="md:text-2xl text-xl font-semibold my-8 text-pink-500">
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-8 pt-8">
             <li className="flex gap-2">
               <img src="/images/checkmark.webp" className="w-6 h-6" />
               <p>
@@ -71,62 +71,62 @@ export default function TextImagePage() {
           </h3>
           <div className="flex justify-center items-center flex-wrap gap-4 py-4 lg:w-[60vw]">
             <img
-              src="/images/exercicios/1-1.gif"
+              src="/images/exercicios/1-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/2-1.gif"
+              src="/images/exercicios/2-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/3-1.gif"
+              src="/images/exercicios/3-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/4-1.gif"
+              src="/images/exercicios/4-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/5-1.gif"
+              src="/images/exercicios/5-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/6-1.gif"
+              src="/images/exercicios/6-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/7-1.gif"
+              src="/images/exercicios/7-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/8-1.gif"
+              src="/images/exercicios/8-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/9-1.gif"
+              src="/images/exercicios/9-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/10-1.gif"
+              src="/images/exercicios/10-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/11-1.gif"
+              src="/images/exercicios/11-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
             <img
-              src="/images/exercicios/12-1.gif"
+              src="/images/exercicios/12-1.webp"
               alt="exercicios"
               className="lg:w-[25vw]"
             />
