@@ -157,17 +157,61 @@ export default function TextImagePage() {
           </span>
         </p>
 
-        <div className="flex flex-col py-4 w-full gap-3">
-          {/* pagina de vendas */}
-          <Button
-            text="Seu Corpo dos Sonhos Está a Um Clique!"
-            link="https://pay.kiwify.com.br/gtec5ZI"
-          />
-          <ButtonOutline
-            text="Ainda Quero Saber Mais"
-            link="https://oliviawilson.fitness/"
-          />
+        <div className="flex flex-col py-8 w-full justify-center items-center gap-8">
+          <h2 className="text-5xl font-bold mt-3 text-black uppercase text-center">
+            Vamos comparar?
+          </h2>
+          <p className="text-xl font-semibold text-center lg:w-[50%] md:w-[70%]">
+            <span className="text-pink-600 text-2xl">
+              <b>
+                <u>SEM o programa completo Olivia Wilson®,</u>
+              </b>{" "}
+              veja abaixo qual seria o seu custo mensal (anual)
+            </span>
+            <ul className="flex flex-col gap-4 py-8 justify-center items-center">
+              <li className="flex gap-2 text-green-700 ">
+                <p className="flex gap-2">
+                  💸<b className="text-black">Academia</b> -{" "}
+                  <span className="line-through">R$200</span> por mês{" "}
+                  <span className="line-through">(R$2.400 por ano)</span>
+                </p>
+              </li>
+              <li className="flex gap-2 text-green-700">
+                <p className="flex gap-2">
+                  💸<b className="text-black">Personal Trainer</b> -{" "}
+                  <span className="line-through">R$400</span> por mês{" "}
+                  <span className="line-through">(R$4.800 por ano)</span>
+                </p>
+              </li>
+              <li className="flex gap-2 text-green-700">
+                <p className="flex gap-2">
+                  💸<b className="text-black">Nutricionista</b> -{" "}
+                  <span className="line-through">R$180</span> por consulta
+                  <span className="line-through"> (R$2.160 por ano)</span>
+                </p>
+              </li>
+            </ul>
+          </p>
+          <p className="text-2xl">
+            <b className="line-through">R$ 9.300,00 </b>😱 por ano! Ou{" "}
+            <b className="line-through">R$780,00 </b>😭 por mês!
+          </p>
+
+          <div />
+
+          <div className="flex flex-col pb-4 w-full gap-3">
+            {/* pagina de vendas */}
+            <Button
+              text="Seu Corpo dos Sonhos Está a Um Clique!"
+              link="https://pay.kiwify.com.br/gtec5ZI"
+            />
+            <ButtonOutline
+              text="Ainda Quero Saber Mais"
+              link="https://oliviawilson.fitness/"
+            />
+          </div>
         </div>
+
         <p className="text-xl pb-12 text-center">
           Essa Oferta Expira em Instantes. Aproveite!
         </p>
