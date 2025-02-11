@@ -15,7 +15,7 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center text-green-800 w-screen pb-16">
+    <div className="flex flex-col items-center justify-center text-green-800 w-screen pb-16 w-screen min-h-screen">
       <div className="flex flex-col lg:w-[60vw] md:p-8 w-[95vw] h-screen items-center justify-around">
         <img src="/1.webp" alt="Logo" className="p-4 w-48" />
         <img

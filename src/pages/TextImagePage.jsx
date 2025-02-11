@@ -20,38 +20,48 @@ export default function TextImagePage() {
           <ul className="flex flex-col gap-2">
             <li className="flex gap-2">
               <img src="/images/checkmark.webp" className="w-6 h-6" />
-              Guia Completo: Método comprovado e passo a passo para emagrecer de
-              forma definitiva.
+              <p>
+                <b>Guia Completo:</b> Método comprovado e passo a passo para
+                emagrecer de forma definitiva.
+              </p>
             </li>
             <li className="flex gap-2">
               {" "}
               <img src="/images/checkmark.webp" className="w-6 h-6" />
-              Dieta Personalizada: Cardápio elaborado por profissionais para
-              cada dia da semana, com foco na sua individualidade.
+              <p>
+                <b>Dieta Personalizada:</b> Cardápio elaborado por profissionais
+                para cada dia da semana, com foco na sua individualidade.
+              </p>
             </li>
             <li className="flex gap-2">
               {" "}
               <img src="/images/checkmark.webp" className="w-6 h-6" />
-              Calendário de exercicios: Saiba quais exercicios fazer para cada
-              dia da semana.
+              <p>
+                <b>Calendário de exercicios:</b> Saiba quais exercicios fazer
+                para cada dia da semana.
+              </p>
             </li>
             <li className="flex gap-2">
               {" "}
               <img src="/images/checkmark.webp" className="w-6 h-6" />
-              Calendário de Dieta: Quais dias comer cada item do cardápio. Uma
-              dieta SEM PASSAR FOME.
+              <p>
+                <b>Calendário de Dieta:</b> Quais dias comer cada item do
+                cardápio. Uma dieta SEM PASSAR FOME.
+              </p>
             </li>
             <li className="flex gap-2 text-green-700">
               {" "}
               <img src="/images/checkmark.webp" className="w-6 h-6" />
-              [Bônus 1] Lista de Exercícios em Casa: Treine no seu tempo e no
-              conforto do seu lar, sem precisar de equipamentos ou academia.
+              <p>
+                <b>Video aula com Exercícios:</b> Treine no seu tempo e no
+                conforto do seu lar, sem precisar de equipamentos ou academia.
+              </p>
             </li>
             <li className="flex gap-2 text-green-700">
-              {" "}
               <img src="/images/checkmark.webp" className="w-6 h-6" />
-              [Bônus 2] Planilha de Acompanhamento: Monitore sua evolução e
-              resultados em tempo real, de forma clara e organizada.
+              <p>
+                Tudo na sua <b>Área de Membros</b> da nossa Plataforma!
+              </p>
             </li>
           </ul>
         </p>
@@ -120,16 +130,6 @@ export default function TextImagePage() {
               alt="exercicios"
               className="lg:w-[25vw]"
             />
-            <img
-              src="/images/exercicios/13-1.gif"
-              alt="exercicios"
-              className="lg:w-[25vw]"
-            />
-            <img
-              src="/images/exercicios/14-1.gif"
-              alt="exercicios"
-              className="lg:w-[25vw]"
-            />
           </div>
           <h3 className="text-black font-bold text-xl text-center">
             E muito mais!
@@ -152,24 +152,23 @@ export default function TextImagePage() {
         </h2>
         <p className="text-xl font-semibold text-center mt-4 lg:w-[50%] md:w-[70%]">
           <span className="text-pink-600">
-            Garantia Incondicional Exclusiva Olivia Wilson®
+            Garantia Incondicional Exclusiva <br />
+            Olivia Wilson®
           </span>
         </p>
-        <p className="text-xl font-semibold my-4 lg:w-[50%] md:w-[70%]">
-          Se, por algum motivo, você achar que melhorar sua autoestima,
-          aparência e confiança não fará diferença na sua vida, eu devolvo o seu
-          investimento. Simples assim. <b>Você não tem nada a perder.</b> Tudo
-          em um só lugar: dieta, receitas e treinos caseiros.
-        </p>
+
         <div className="flex flex-col py-4 w-full gap-3">
           {/* pagina de vendas */}
-          <Button text="Quero o Kit Completo!" link="https://worldwise.study" />
+          <Button
+            text="Seu Corpo dos Sonhos Está a Um Clique!"
+            link="https://pay.kiwify.com.br/gtec5ZI"
+          />
           <ButtonOutline
-            text="Quero Saber Mais"
-            link="https://worldwise.study"
+            text="Ainda Quero Saber Mais"
+            link="https://oliviawilson.fitness/"
           />
         </div>
-        <p className="text-xl mb-8 text-center">
+        <p className="text-xl pb-12 text-center">
           Essa Oferta Expira em Instantes. Aproveite!
         </p>
       </div>
