@@ -17,7 +17,7 @@ export default function TextImagePage() {
         </h2>
 
         <p className="md:text-2xl text-xl font-semibold my-8 text-pink-500">
-          <ul className="flex flex-col gap-8 pt-8">
+          <ul className="flex flex-col gap-8 pt-4">
             <li className="flex gap-2">
               <img src="/images/checkmark.webp" className="w-6 h-6" />
               <p>
@@ -157,8 +157,8 @@ export default function TextImagePage() {
           </span>
         </p>
 
-        <div className="flex flex-col py-8 w-full justify-center items-center gap-8">
-          <h2 className="text-5xl font-bold mt-3 text-black uppercase text-center">
+        <div className="flex flex-col py-8 w-full justify-center items-center gap-4">
+          <h2 className="text-5xl font-bold mt-4 text-black uppercase text-center">
             Vamos comparar?
           </h2>
           <p className="text-xl font-semibold text-center lg:w-[50%] md:w-[70%]">
@@ -170,21 +170,21 @@ export default function TextImagePage() {
             </span>
             <ul className="flex flex-col gap-4 py-8 justify-center items-center">
               <li className="flex gap-2 text-green-700 ">
-                <p className="flex gap-2">
+                <p>
                   💸<b className="text-black">Academia</b> -{" "}
                   <span className="line-through">R$200</span> por mês{" "}
                   <span className="line-through">(R$2.400 por ano)</span>
                 </p>
               </li>
               <li className="flex gap-2 text-green-700">
-                <p className="flex gap-2">
+                <p>
                   💸<b className="text-black">Personal Trainer</b> -{" "}
                   <span className="line-through">R$400</span> por mês{" "}
                   <span className="line-through">(R$4.800 por ano)</span>
                 </p>
               </li>
               <li className="flex gap-2 text-green-700">
-                <p className="flex gap-2">
+                <p>
                   💸<b className="text-black">Nutricionista</b> -{" "}
                   <span className="line-through">R$180</span> por consulta
                   <span className="line-through"> (R$2.160 por ano)</span>
@@ -192,14 +192,13 @@ export default function TextImagePage() {
               </li>
             </ul>
           </p>
-          <p className="text-2xl">
-            <b className="line-through">R$ 9.300,00 </b>😱 por ano! Ou{" "}
+          <p className="text-2xl text-center">
+            <b className="line-through">R$ 9.300,00 </b>😱 por ano! <br /> Ou{" "}
             <b className="line-through">R$780,00 </b>😭 por mês!
           </p>
-
           <div />
 
-          <div className="flex flex-col pb-4 w-full gap-3">
+          <div className="flex flex-col  w-full gap-4">
             {/* pagina de vendas */}
             <Button
               text="Seu Corpo dos Sonhos Está a Um Clique!"

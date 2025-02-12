@@ -70,7 +70,10 @@ export default function ResultPage() {
           Imagine como você se sentirá com o corpo dos seus sonhos! 😍 Não deixe
           essa chance passar.<b> Clique agora e descubra seu próximo passo!</b>
         </p>
-        <Button text="Descubra Seu Próximo Passo Agora!" link="/text-image" />
+        <Button
+          text="Descubra Seu Próximo Passo Agora!"
+          link="/olivia-wilson"
+        />
         <p className="text-xl mt-4 text-center lg:w-[50%] md:w-[70%]">
           Pare de adiar! 🚫 Sua transformação é totalmente possível.
         </p>
