@@ -10,12 +10,12 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen text-green-800 py-16 w-screen min-h-screen">
-      <div className="flex flex-col lg:w-[60vw] md:w-[80vw] w-full min-h-screen items-center justify-around">
+      <div className="flex flex-col lg:w-[60vw] md:w-[80vw] w-full min-h-screen items-center gap-6 py-8">
         {/* Logo Image */}
-        <img src={logo} alt="Logo" className="mb-4 w-48" />
+        <img src={logo} alt="Logo" className="w-48" />
 
         {/* Heading */}
-        <h1 className="text-3xl font-bold text-center lg:w-[50%] md:w-[70%] w-[90%]">
+        <h1 className="text-3xl lg:text-4xl font-bold text-center lg:w-[60%] md:w-[70%] w-[90%]">
           {heading}
         </h1>
 
@@ -27,7 +27,7 @@ export default function HomePage() {
         />
 
         {/* Description Text */}
-        <p className="md:text-2xl text-xl font-semibold text-gray-500 text-center md:p-4 p-2">
+        <p className="md:text-2xl text-xl font-semibold text-gray-500 text-center md:p-4 p-2 lg:w-[88%]">
           {description}
         </p>
 
