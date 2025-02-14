@@ -15,7 +15,7 @@ export default function HomePage() {
         <img src={logo} alt="Logo" className="mb-4 w-48" />
 
         {/* Heading */}
-        <h1 className="text-3xl font-bold mb-4 text-center lg:w-[50%] md:w-[70%] w-[90%]">
+        <h1 className="text-3xl font-bold text-center lg:w-[50%] md:w-[70%] w-[90%]">
           {heading}
         </h1>
 
@@ -23,11 +23,11 @@ export default function HomePage() {
         <img
           src={heroImage}
           alt="Hero image"
-          className="mb-4 md:w-[70%] w-[90%] rounded-2xl"
+          className="md:w-[70%] w-[90%] rounded-2xl"
         />
 
         {/* Description Text */}
-        <p className="md:text-2xl text-xl mb-4 font-semibold text-gray-500 text-center md:p-4 p-2">
+        <p className="md:text-2xl text-xl font-semibold text-gray-500 text-center md:p-4 p-2">
           {description}
         </p>
 
