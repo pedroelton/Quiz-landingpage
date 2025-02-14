@@ -31,8 +31,7 @@ export default function ResultPage() {
         </div>
 
         <p className="text-xl font-semibold mb-4 text-center lg:w-[50%] md:w-[70%]">
-          Sua jornada está prestes a COMEÇAR! 💪 <b>Revelamos os segredos</b>{" "}
-          que vão te levar à sua melhor versão. Acesse nossa surpresa,{" "}
+          Sua jornada está prestes a COMEÇAR! 💪 Acesse nossa surpresa,{" "}
           <b>NÃO DESISTA</b> e vamos juntos!
         </p>
         <p className="md:text-2xl text-xl font-semibold mb-4 text-pink-500">
