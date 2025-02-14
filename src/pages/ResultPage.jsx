@@ -5,6 +5,7 @@
 
 import React from "react";
 import Button from "../components/Button";
+import ProgressRing from "../components/ProgressRing";
 
 export default function ResultPage() {
   return (
@@ -13,7 +14,23 @@ export default function ResultPage() {
         <h2 className="text-4xl font-bold mt-3 text-pink-500 uppercase">
           Resultado
         </h2>
-        <p className="text-xl font-semibold mb-4 mt-4 text-center lg:w-[50%] md:w-[70%]">
+        {/* ADD THE RING COMPONENT HERE */}
+        <div className="flex flex-col gap-4 justify-center items-center py-8">
+          <ProgressRing />
+          <h3 className="text-2xl font-bold uppercase text-pink-500">
+            Você tem potencial!
+          </h3>
+          <p className="text-xl text-black font-medium font-semibold text-center lg:w-[50%] md:w-[70%]">
+            O erro está em tentar perder todo o peso de uma vez só. Comigo, você
+            vai perder peso aos poucos e sem dor. Com metas alcansáveis e foco
+            na consistência. <br />
+            <b className="text-pink-700">
+              Você vai atingir o seu objetivo antes do que imagina!
+            </b>
+          </p>
+        </div>
+
+        <p className="text-xl font-semibold mb-4 text-center lg:w-[50%] md:w-[70%]">
           Sua jornada está prestes a COMEÇAR! 💪 <b>Revelamos os segredos</b>{" "}
           que vão te levar à sua melhor versão. Acesse nossa surpresa,{" "}
           <b>NÃO DESISTA</b> e vamos juntos!

@@ -40,16 +40,7 @@ const content = {
       ],
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
-    {
-      title: "Quanto tempo você já tentou emagrecer sem sucesso?",
-      options: [
-        { text: "Alguns meses." },
-        { text: "Alguns anos." },
-        { text: "Nunca tentei seriamente, mas sempre penso nisso." },
-        { text: "Nunca tentei porque não sei por onde começar." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
+
     {
       title: "Qual o impacto do seu peso na sua saúde?",
       options: [
@@ -101,26 +92,6 @@ const content = {
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
     {
-      title: "Como seria sua vida se você perdesse o peso que deseja?",
-      options: [
-        { text: "Melhor, mas não sei se faria tanta diferença." },
-        { text: "Seria incrível, mas parece um sonho distante." },
-        { text: "Totalmente transformada, com mais energia e confiança." },
-        { text: "Finalmente viveria sem limitações ou vergonha." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
-      title: "Quando você pensa no futuro, como imagina sua saúde?",
-      options: [
-        { text: "Saudável, mesmo sem grandes mudanças." },
-        { text: "Preocupante, se não mudar agora." },
-        { text: "Em risco, tenho medo do que pode acontecer." },
-        { text: "Comprometida, se continuar nesse ritmo." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
       title: "Como você avalia sua alimentação no dia a dia?",
       options: [
         { text: "Bem equilibrada." },
@@ -130,26 +101,7 @@ const content = {
       ],
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
-    {
-      title: "Você acredita que é possível emagrecer sem sofrer?",
-      options: [
-        { text: "Talvez, mas tenho dúvidas." },
-        { text: "Não acredito, sempre foi difícil pra mim." },
-        { text: "Sim, se eu encontrar o método certo." },
-        { text: "Acho que é possível, mas nunca tentei algo eficiente." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
-      title: "O que mais te impede de começar uma mudança?",
-      options: [
-        { text: "Falta de tempo." },
-        { text: "Falta de motivação." },
-        { text: "Não sei por onde começar." },
-        { text: "Medo de fracassar novamente." },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
+
     {
       title: "Como você lida com seu corpo nas redes sociais?",
       options: [
@@ -159,16 +111,6 @@ const content = {
         {
           text: "Apenas compartilho fotos antigas, quando eu era mais magro(a).",
         },
-      ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
-    },
-    {
-      title: "Qual é o seu maior medo relacionado ao seu peso?",
-      options: [
-        { text: "Prejudicar minha saúde no futuro." },
-        { text: "Nunca conseguir me sentir bem comigo mesmo." },
-        { text: "Sofrer preconceito ou rejeição." },
-        { text: "Não poder acompanhar a vida ativa dos meus filhos ou netos." },
       ],
       img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
     },
