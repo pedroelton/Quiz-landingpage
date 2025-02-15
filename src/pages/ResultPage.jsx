@@ -10,7 +10,7 @@ import ProgressRing from "../components/ProgressRing";
 export default function ResultPage() {
   return (
     <div className="flex flex-col items-center justify-center text-green-800 w-screen pb-4 w-screen min-h-screen">
-      <div className="flex flex-col lg:w-[60vw] md:p-8 w-[95vw] h-screen items-center justify-between">
+      <div className="flex flex-col lg:w-full md:p-8 w-[95vw] h-screen items-center justify-between">
         <h2 className="text-4xl font-bold mt-3 text-pink-500 uppercase">
           Resultado
         </h2>
@@ -20,7 +20,7 @@ export default function ResultPage() {
           <h3 className="text-2xl font-bold uppercase text-pink-500">
             Você tem potencial!
           </h3>
-          <p className="text-xl text-black font-medium font-semibold text-center lg:w-[50%] md:w-[70%]">
+          <p className="text-xl text-black font-medium font-semibold text-center lg:w-[60%] md:w-[70%]">
             O erro está em tentar perder todo o peso de uma vez só. Comigo, você
             vai perder peso aos poucos e sem dor. Com metas alcansáveis e foco
             na consistência. <br />
@@ -30,9 +30,9 @@ export default function ResultPage() {
           </p>
         </div>
 
-        <p className="text-xl font-semibold mb-4 text-center lg:w-[50%] md:w-[70%]">
-          Sua jornada está prestes a COMEÇAR! 💪 Acesse nossa surpresa,{" "}
-          <b>NÃO DESISTA</b> e vamos juntos!
+        <p className="text-xl font-semibold mb-4 text-center lg:w-[70%] md:w-[70%]">
+          Sua jornada está prestes a COMEÇAR! 💪 <br />
+          Acesse nossa surpresa, <b>NÃO DESISTA</b> e vamos juntos!
         </p>
         <p className="md:text-2xl text-xl font-semibold mb-4 text-pink-500">
           <ul className="flex flex-col gap-2">
@@ -84,12 +84,19 @@ export default function ResultPage() {
         </p>
         <p className="md:text-2xl text-xl font-semibold mb-8 mt-4 text-center lg:w-[50%] md:w-[70%]">
           Imagine como você se sentirá com o corpo dos seus sonhos! 😍 Não deixe
-          essa chance passar.<b> Clique agora e descubra seu próximo passo!</b>
+          essa chance passar.
+          <b>
+            {" "}
+            <br />
+            Clique agora e descubra seu próximo passo!
+          </b>
         </p>
-        <Button
-          text="Descubra Seu Próximo Passo Agora!"
-          link="/olivia-wilson"
-        />
+        <div className="w-full md:w-[70%] lg:w-[50%]">
+          <Button
+            text="Descubra Seu Próximo Passo Agora!"
+            link="/olivia-wilson"
+          />
+        </div>
         <p className="text-xl mt-4 text-center lg:w-[50%] md:w-[70%]">
           Pare de adiar! 🚫 Sua transformação é totalmente possível.
         </p>

@@ -10,7 +10,7 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen text-green-800 py-16 w-screen min-h-screen">
-      <div className="flex flex-col lg:w-[60vw] md:w-[80vw] w-full min-h-screen items-center gap-6 py-8">
+      <div className="flex flex-col lg:w-[60vw] md:w-[80vw] w-full min-h-screen items-center justify-between gap-6 py-8">
         {/* Logo Image */}
         <img src={logo} alt="Logo" className="w-48" />
 
@@ -20,19 +20,21 @@ export default function HomePage() {
         </h1>
 
         {/* Hero Image */}
-        <img
+        {/* <img
           src={heroImage}
           alt="Hero image"
           className="md:w-[70%] w-[90%] rounded-2xl"
-        />
+        /> */}
 
         {/* Description Text */}
-        <p className="md:text-2xl text-xl font-semibold text-gray-500 text-center md:p-4 p-2 lg:w-[88%]">
+        <p className="md:text-2xl text-xl font-semibold text-gray-500 text-center md:p-4 p-2 lg:w-[72%]">
           {description}
         </p>
 
         {/* Button */}
-        <Button text={buttonText} link={buttonLink} />
+        <div className="w-[95vw] md:w-[60%]">
+          <Button text={buttonText} link={buttonLink} />
+        </div>
       </div>
     </div>
   );

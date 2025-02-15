@@ -28,7 +28,7 @@ const content = {
         { text: "40-49" },
         { text: "+50" },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/bday.webp",
     },
     {
       title: "Como você se sente ao escolher roupas em uma loja?",
@@ -38,7 +38,7 @@ const content = {
         { text: "Evito comprar roupas por vergonha de experimentar." },
         { text: "Prefiro não ir a lojas para evitar frustrações." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/shopping.webp",
     },
 
     {
@@ -49,7 +49,7 @@ const content = {
         { text: "Já tenho problemas como diabetes ou hipertensão." },
         { text: "Estou constantemente no limite da exaustão." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/fat.webp",
     },
     {
       title: "Como é sua relação com a alimentação?",
@@ -59,7 +59,7 @@ const content = {
         { text: "Dependo de comida para lidar com o estresse." },
         { text: "Como sem perceber, principalmente em momentos de ansiedade." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/blender.webp",
     },
     {
       title: "Você já deixou de fazer algo por vergonha do seu corpo?",
@@ -69,7 +69,7 @@ const content = {
         { text: "Frequentemente." },
         { text: "Sim, muitas oportunidades foram perdidas por isso." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/scale2.webp",
     },
     {
       title: "Qual é sua maior dificuldade em emagrecer?",
@@ -79,7 +79,7 @@ const content = {
         { text: "Focar nos resultados e evitar recaídas." },
         { text: "Ter força de vontade para começar." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/exercise.webp",
     },
     {
       title: "Você acredita que seu peso afeta sua autoestima?",
@@ -89,7 +89,7 @@ const content = {
         { text: "Me sinto péssimo(a) na maior parte do tempo." },
         { text: "Evito pensar nisso, mas sei que afeta minha vida." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/fat-mirrow.webp",
     },
     {
       title: "Como você avalia sua alimentação no dia a dia?",
@@ -99,7 +99,7 @@ const content = {
         { text: "Descontrolada, principalmente em momentos de estresse." },
         { text: "Quase sempre baseada em fast food ou comidas prontas." },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/fat-eating.webp",
     },
 
     {
@@ -112,7 +112,7 @@ const content = {
           text: "Apenas compartilho fotos antigas, quando eu era mais magro(a).",
         },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/fat-social-media.webp",
     },
     {
       title: "Quantos Kg você precisa perder?",
@@ -122,7 +122,7 @@ const content = {
         { text: "21kg-30kg" },
         { text: "+30kg" },
       ],
-      img: "../../images/beautiful-woman-are-exercising-with-yoga-gym_40919-198.webp",
+      img: "../../images/scale.webp",
     },
   ],
 };

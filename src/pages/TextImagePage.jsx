@@ -65,9 +65,31 @@ export default function TextImagePage() {
             </li>
           </ul>
         </p>
-        <div className="flex flex-col p-4">
+        <div className="flex flex-col md:flex-row md:gap-16 gap-8 py-4">
+          <div className="flex flex-col items-center">
+            <h3 className="text-black font-bold text-2xl text-center">
+              Cardápio com <br />
+              50 páginas
+            </h3>
+            <img
+              src="/images/Cardápio Olivia Wilson.webp"
+              className="w-[240px] shadow-xl round"
+            />
+          </div>
+          <div className="flex flex-col items-center">
+            <h3 className="text-black font-bold text-2xl text-center">
+              Guia completo de <br />
+              Alimentação Saudável
+            </h3>
+            <img
+              src="/public/images/E-book Alimentação Saudável - Este Guia vai te Ajudar.pdf.webp"
+              className="w-[240px] shadow-xl pt-8 round"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col p-4 mt-8">
           <h3 className="text-black font-bold text-2xl text-center">
-            Exercicios Eficiêntes em Casa
+            Exercicios em Casa
           </h3>
           <div className="flex justify-center items-center flex-wrap gap-4 py-4 lg:w-[60vw]">
             <img
@@ -142,20 +164,6 @@ export default function TextImagePage() {
             <img src="/images/4.webp" alt="dieta" className="lg:w-[25vw]" />
           </div>
         </div>
-        <img
-          src="/images/selo-7d.svg"
-          alt="Imagens sobre emagrecimento"
-          className="md:mb-6 my-4 rounded-xl md:w-[40vw] lg:w-[20vw]"
-        />
-        <h2 className="text-3xl font-bold mt-3 text-black text-center">
-          100% LIVRE DE RISCOS
-        </h2>
-        <p className="text-xl font-semibold text-center mt-4 lg:w-[50%] md:w-[70%]">
-          <span className="text-pink-600">
-            Garantia Incondicional Exclusiva <br />
-            Olivia Wilson®
-          </span>
-        </p>
 
         <div className="flex flex-col py-8 w-full justify-center items-center gap-4">
           <h2 className="text-5xl font-bold mt-4 text-black uppercase text-center">
@@ -199,6 +207,20 @@ export default function TextImagePage() {
           <div />
 
           <div className="flex flex-col  w-full gap-4">
+            <img
+              src="/images/selo-7d.svg"
+              alt="Imagens sobre emagrecimento"
+              className="md:mb-6 my-4 rounded-xl md:w-[40vw] lg:w-[20vw]"
+            />
+            <h2 className="text-3xl font-bold mt-3 text-black text-center">
+              100% LIVRE DE RISCOS
+            </h2>
+            <p className="text-xl font-semibold text-center mt-4 lg:w-[50%] md:w-[70%]">
+              <span className="text-pink-600">
+                Garantia Incondicional Exclusiva <br />
+                Olivia Wilson®
+              </span>
+            </p>
             {/* pagina de vendas */}
             <Button
               text="Seu Corpo dos Sonhos Está a Um Clique!"
