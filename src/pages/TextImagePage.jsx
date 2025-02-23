@@ -65,6 +65,62 @@ export default function TextImagePage() {
             </li>
           </ul>
         </p>
+        <p className="md:text-2xl text-xl font-semibold mt-4 mb-8 text-pink-500">
+          <ul className="flex flex-col gap-4 pt-4">
+            <li className="flex gap-2">
+              <p className="md:text-5xl text-3xl font-bold">🥗 +400 Receitas</p>
+            </li>
+            <li className="flex gap-2">
+              {" "}
+              <p>🏋️ Receitas Fitness</p>
+            </li>
+            <li className="flex gap-2">
+              {" "}
+              <p>🍚 Receitas Low Carb</p>
+            </li>
+            <li className="flex gap-2">
+              {" "}
+              <p>🗓️ Desafio 30 Dias (Cardápios para Seguir)</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              {" "}
+              <p>🍱 Receitas de Marmitas Fitness</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>🍮 Receitas de Doces e Sobremesas Fitness</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>🥛 Receitas de Leites Low Carb</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>🥘 Receitas de Farinhas Low Carb</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>📱 Aplicativo para Emagrecer</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>🥤 Receitas de Sucos Detox</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>💩 Receitas para Prisão de Ventre</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>📖 BÔNUS: E-book Jejum Intermitente</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>💪 BÔNUS: Exercícios Físicos Para Fazer em Casa</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>✅ Bônus Exclusivos Somente para esse Pacote</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>☑️ Atualizações do Material</p>
+            </li>
+            <li className="flex gap-2 text-green-700">
+              <p>✅ Acesso Vitalício</p>
+            </li>
+          </ul>
+        </p>
         <div className="flex flex-col md:flex-row md:gap-16 gap-8 py-4">
           <div className="flex flex-col items-center">
             <h3 className="text-black font-bold text-2xl text-center">
@@ -82,13 +138,13 @@ export default function TextImagePage() {
               Alimentação Saudável
             </h3>
             <img
-              src="/public/images/E-book Alimentação Saudável - Este Guia vai te Ajudar.pdf.webp"
+              src="/images/E-book Alimentação Saudável - Este Guia vai te Ajudar.pdf.webp"
               className="w-[240px] shadow-xl pt-8 round"
             />
           </div>
         </div>
         <div className="flex flex-col p-4 mt-8">
-          <h3 className="text-black font-bold text-2xl text-center">
+          <h3 className="text-black font-bold text-4xl text-center">
             Exercicios em Casa
           </h3>
           <div className="flex justify-center items-center flex-wrap gap-4 py-4 lg:w-[60vw]">
@@ -206,7 +262,7 @@ export default function TextImagePage() {
           </p>
           <div />
 
-          <div className="flex flex-col  w-full gap-4">
+          <div className="flex flex-col justify-center items-center w-full gap-4">
             <img
               src="/images/selo-7d.svg"
               alt="Imagens sobre emagrecimento"
@@ -224,11 +280,11 @@ export default function TextImagePage() {
             {/* pagina de vendas */}
             <Button
               text="Seu Corpo dos Sonhos Está a Um Clique!"
-              link="https://pay.kiwify.com.br/gtec5ZI"
+              link="https://pay.kiwify.com.br/KQ8D2Of?utm_source=quizApp&utm_medium=botao&utm_campaign=programa_ow_premium_quiz&utm_content=premium_program_from_quiz"
             />
             <ButtonOutline
               text="Ainda Quero Saber Mais"
-              link="https://oliviawilson.fitness/"
+              link="https://oliviawilson.fitness/desconto-exclusivo-dm?utm_source=quizApp&utm_medium=botao&utm_campaign=programa_ow_premium_quiz&utm_content=premium_program_from_salespage_quiz"
             />
           </div>
         </div>
